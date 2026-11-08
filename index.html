@@ -14,9 +14,9 @@
 <meta property="og:image" content="https://wissahickonoutfitters.com/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Wissahickon Creek running between green hardwood trees under a blue sky">
+<meta property="og:image:alt" content="Wissahickon Outfitters emblem: a red covered bridge over a creek, in a keystone-shaped badge">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-48.png" type="image/png" sizes="48x48">
 <link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="style.css">
@@ -26,12 +26,15 @@
 <a class="skip" href="#info">Skip to content</a>
 
 <header class="hero">
-  <img class="hero-img" src="img/hero.jpg" width="1800" height="1350" alt="Wissahickon Creek running between green hardwood trees under a blue sky" fetchpriority="high">
+  <img class="hero-img" src="img/hero-1200.jpg" srcset="img/hero-800.jpg 800w, img/hero-1200.jpg 1200w, img/hero-1600.jpg 1600w" sizes="100vw" width="1600" height="1200" alt="Wissahickon Creek running between green hardwood trees under a blue sky" fetchpriority="high">
   <div class="scrim"></div>
-  <nav class="top wrap" aria-label="Main">
-    <a href="#info">Info</a>
-    <a href="#connect">Connect</a>
-  </nav>
+  <div class="top wrap">
+    <a class="mark" href="/"><img src="img/emblem.png" width="260" height="244" alt="Wissahickon Outfitters emblem: a red covered bridge over a creek, in a keystone-shaped badge" decoding="async"></a>
+    <nav aria-label="Main">
+      <a href="#info">Info</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </div>
   <div class="wrap hero-text">
     <h1>Wissahickon Outfitters</h1>
     <p>Outdoor gear and good company for the Wissahickon. We are just getting started.</p>
@@ -51,7 +54,7 @@
       </div>
       <div class="pics">
         <figure class="tall">
-          <img src="img/woods.jpg" width="1100" height="1466" alt="A rocky hillside along the Orange Trail in the Wissahickon, with fallen autumn leaves" loading="lazy">
+          <img src="img/woods.jpg" width="800" height="1066" alt="A rocky hillside along the Orange Trail in the Wissahickon, with fallen autumn leaves" loading="lazy">
           <figcaption>The Orange Trail, in the fall.</figcaption>
         </figure>
       </div>
@@ -59,7 +62,7 @@
   </section>
 
   <figure class="bleed">
-    <img src="img/path.jpg" width="1600" height="1200" alt="A gravel path beside the Wissahickon Creek in autumn" loading="lazy">
+    <img src="img/path.jpg" width="1400" height="1050" alt="A gravel path beside the Wissahickon Creek in autumn" loading="lazy">
     <figcaption>The creek in autumn, near Valley Green Inn.</figcaption>
   </figure>
 
@@ -67,7 +70,7 @@
     <div class="wrap cols flip">
       <div class="pics">
         <figure>
-          <img src="img/inn.jpg" width="1600" height="1098" alt="Valley Green Inn, a white building with green shutters, in autumn" loading="lazy">
+          <img src="img/inn.jpg" width="1100" height="755" alt="Valley Green Inn, a white building with green shutters, in autumn" loading="lazy">
           <figcaption>Valley Green Inn.</figcaption>
         </figure>
       </div>
@@ -76,7 +79,7 @@
         <p>Valley Green Inn has stood beside the creek since about 1850. It is the last of the old roadhouses that once lined Forbidden Drive, and it still serves meals today.</p>
         <p>It is the landmark we think of first: white walls and green shutters at the foot of the woods.</p>
         <figure class="pics small" style="margin-top:1.8rem">
-          <div class="crop"><img src="img/hotel.jpg" width="1600" height="796" alt="An old stereoview photograph of the Valley Green Hotel and the trees around it" loading="lazy"></div>
+          <div class="crop"><img src="img/hotel.jpg" width="900" height="447" alt="An old stereoview photograph of the Valley Green Hotel and the trees around it" loading="lazy"></div>
           <figcaption>The Valley Green Hotel, in an old stereoview.</figcaption>
         </figure>
       </div>
@@ -120,7 +123,7 @@
 <footer>
   <div class="wrap">
     <div class="row">
-      <span>&copy; 2026 Wissahickon Outfitters. Philadelphia, Pennsylvania.</span>
+      <span class="foot-id"><img class="foot-mark" src="img/emblem.png" width="260" height="244" alt="" loading="lazy">&copy; 2026 Wissahickon Outfitters. Philadelphia, Pennsylvania.</span>
       <span><a href="#info">Info</a> &nbsp; <a href="#connect">Connect</a> &nbsp; <a href="mailto:hello@wissahickonoutfitters.com">hello@wissahickonoutfitters.com</a></span>
     </div>
     <ul class="credits">
