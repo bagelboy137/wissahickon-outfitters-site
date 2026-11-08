@@ -1,0 +1,13 @@
+{
+  "name": "Wissahickon Outfitters",
+  "short_name": "Wissahickon",
+  "description": "Outdoor gear and good company for the Wissahickon.",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#112e16",
+  "background_color": "#e4e8df",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
